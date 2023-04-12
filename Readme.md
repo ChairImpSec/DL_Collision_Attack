@@ -1,4 +1,4 @@
-# DL-LA: Deep Learning Leakage Assessment
+# Deep Learning Side-Channel Collision Attack
 This repository contains source code related to the article [Deep Learning Side-Channel Collision Attack](https://eprint.iacr.org/2023/???.pdf) and provides some easy examples. Please note that the provided scripts have been intentionally condensed to their fundamental functionality and deliberately kept brief and straightforward.
 
 ## Short Description
