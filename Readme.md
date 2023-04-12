@@ -10,7 +10,7 @@ To run the Python scripts, a working installation of *TensorFlow*, *keras*, and 
 
 ## Getting Started
 
-- Step 1: Execute `LeakageIdentification.py` to obtain the leaking position for a specific key portion. You should execute it with a wide range of sample points first and select a smaller range around the peak afterwards (see Section 3.2 in paper). The final range is determined by visual inspection.
+- Step 1: Execute `LeakageIdentification.py` to obtain the leaking position for a specific key portion. You should execute it with a wide range of sample points first and select a smaller range around the peak afterwards (see Section 3.2 in paper). It might take several tries until a suitable range is found. The final range is determined by visual inspection.
 - Step 2: Execute `TrainingPhase.py` with the previously determined leaking range. You will train a corresponding model that can be used to find collisions in the other key portions.
 - Step 3: When the offsets between the processing of different portions are known, you can either calculate the ranges for the other bytes yourself or use `CalcRanges.py`. If the offsets are unknown, you have to repeat Step 1 and receive the output weight-files. `CalcRanges.py` will help you to calculate the range for the target byte based on the weight-files.
 - Step 4: Execute `AttackPhase.py` with the previously calculated ranges for the target byte.
