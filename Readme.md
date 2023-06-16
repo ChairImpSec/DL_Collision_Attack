@@ -26,4 +26,4 @@ Please contact Marvin Staib (marvin.staib@rub.de) if you have any questions, com
 Please see `LICENSE` for licensing instructions.
 
 ## Publication
-[Deep Learning Side-Channel Collision Attack](https://eprint.iacr.org/2023/???.pdf).
+[Deep Learning Side-Channel Collision Attack](https://tches.iacr.org/index.php/TCHES/article/view/10969).
