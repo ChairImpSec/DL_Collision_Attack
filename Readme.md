@@ -17,7 +17,7 @@ To run the Python scripts, a working installation of *TensorFlow*, *keras*, and 
 
 
 ## Examples
-All python scripts should be executable without any prior changes on the parameters to target the seventh byte of the ASCADv1 dataset. The dataset can be found [here](https://github.com/ANSSI-FR/ASCAD/blob/master/ATMEGA_AES_v1/ATM_AES_v1_fixed_key/Readme.md), all other required files are contained in the [Examples](https://github.com/ChairImpSec/DL_Collision_Attack/Examples) folder. When you aim to target any other bytes, make sure to follow the order of execution as explained in the paper.
+All python scripts should be executable without any prior changes on the parameters to target the seventh byte of the ASCADv1 dataset. The dataset can be found [here](https://github.com/ANSSI-FR/ASCAD/blob/master/ATMEGA_AES_v1/ATM_AES_v1_fixed_key/Readme.md), all other required files are contained in the [Examples](https://github.com/ChairImpSec/DL_Collision_Attack/tree/main/Examples) folder. When you aim to target any other bytes, make sure to follow the order of execution as explained in the paper.
 
 ## Contact and Support
 Please contact Marvin Staib (marvin.staib@rub.de) if you have any questions, comments or if you found a bug that should be corrected.
